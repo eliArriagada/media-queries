@@ -191,14 +191,8 @@ menu div:hover{
             border: 1px solid gray;
         }
         menu {
-            grid-area: menu;
-            margin-top: 0%;
-            margin-bottom:0%;
-            padding-bottom: 2rem;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background-color: #d268f5;
+        display:none;
+            
         }
         menu div:hover{
             color: rgb(244, 218, 242);
