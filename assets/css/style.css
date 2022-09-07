@@ -24,7 +24,7 @@ display: none;
             "footer main";
 
         background-color: #e4e4e4;
-        grid-template-columns: 10% 90%;
+        grid-template-columns: auto 1fr;
         grid-template-rows: auto auto 1fr auto;
     }
 .menu-mobile{
@@ -68,7 +68,7 @@ menu div:hover{
 
     .caja {
         background-color: white;
-        width: 16rem;
+        width: 15rem;
         text-align: center;
         margin: 1rem;
         display: flex;
@@ -208,3 +208,9 @@ menu div:hover{
             text-align: center;
         }
     }
+    @media (min-width: 576px) and (max-width: 992px){
+        .grid-container {
+                grid-template-columns: 20% 80%;
+            
+}
+}
